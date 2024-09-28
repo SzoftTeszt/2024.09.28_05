@@ -4,6 +4,7 @@
   margin:0;
   padding: 0;
   line-height: 1;
+  box-sizing: border-box;
 
 }
 
@@ -16,5 +17,16 @@ body{
 }
 #container{
   max-width: 1000px;
-  margin:0 auto;
+  margin:0 auto
 }
+.header{
+ background: url('../pics/bg-header.jpg');
+ height: 300px;
+ font-size: 35px;
+ padding:120px 0 0 80px;
+}
+
+h1{
+  color:white;
+}
+  
